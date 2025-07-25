@@ -1,0 +1,46 @@
+so this is my notes folder of react 
+
+* NPM stands for just anything else (it is not have full form )
+
+- it is not node package manager 
+- it is work as a Node package manager
+- * package.json -package.json is configuration for a the NPM , why we need it alot of tie it know as a dependencies
+
+
+* parcel we use while a ignite our app
+
+- basically its a bundler 
+- its combine aur files (.js,.jsx,.css,.html)
+-optimizes them into bundle (ready for production)
+- outputs them into a bundle 
+- runs a dev server with hot reloading (auto update browser when  on file save )
+
+* caret(^) and tilde(~) - difference is   (caret we use )
+
+- if we use tilde (~) some how a new version of a parcel has come then if we use tilde its 
+  automatically install new version of a parcel or any other thing pack so , its harm our 
+  app bcos we create app in (v1), then its update some dependencies are not their our app 
+  gets collaps so instead of tilde we use caret , so which we its update only miner updates
+  only so which we can have all dependencies so which we run our app 
+
+* what is difference bitween package.json and package-lock.json
+
+- package.json = package.json has only this dependencies which we use and which we use i
+  intially so its consist only a dependencies which we we need intially but a  
+
+- package-lock.json = package-lock.json has a all dependencies which package.json need 
+  (their has a hiercial struture in this so dependencies) has or need their own dependencie
+  s so ists store in the package-lock.json , and its keep track of all the version of the 
+  all of them.
+  -- both are imp in it 
+  if i have package.json and package-lock.json i can create whole nodemodule file so we can
+  put into .gitignore
+
+* node modules -
+  node modules are a some files which has a all dependencies or which we need into a prj.
+  basically its consist a package
+  - its huge 
+
+
+* transitive dependencies - means a dependencies has their on dependencies
+

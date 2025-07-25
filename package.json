@@ -1,0 +1,25 @@
+{
+  "name": "program",
+  "version": "1.0.0",
+  "description": "This is react tuto",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kunal9988/Namste-React.js.git"
+  },
+  "keywords": [
+    "kunal"
+  ],
+  "author": "Kunal Mirgal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kunal9988/Namste-React.js/issues"
+  },
+  "homepage": "https://github.com/Kunal9988/Namste-React.js#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
