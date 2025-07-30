@@ -1,0 +1,53 @@
+.Header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-items {
+  padding: 15px;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.res-card {
+  width: 200px;
+  height: 300px;
+  padding: 5px;
+}
+
+.Res-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.Search {
+  padding: 10px;
+}
+
+.res-logo {
+  width: 100%;
+}
+/*# sourceMappingURL=program.9e4c6fd2.css.map */

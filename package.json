@@ -2,8 +2,9 @@
   "name": "program",
   "version": "1.0.0",
   "description": "This is react tuto",
-  "main": "app.js",
   "scripts": {
+    "start" : "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -21,5 +22,9 @@
   "homepage": "https://github.com/Kunal9988/Namste-React.js#readme",
   "devDependencies": {
     "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
